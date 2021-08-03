@@ -1,5 +1,5 @@
 ---
-title: Rust for Windows, and the *windows* crate
+title: Rust for Windows, and the windows crate
 description: Using the *windows* crate, and calling Windows APIs.
 author: stevewhims
 ms.author: stwhi 
@@ -13,13 +13,15 @@ ms.date: 03/04/2021
 # Rust for Windows, and the *windows* crate
 
 &nbsp;
-> [!VIDEO https://www.youtube.com/embed/LajquCjHXK4]
+> [!VIDEO https://www.youtube.com/embed/-oZrsCPKsn4]
 
 ## Introducing Rust for Windows
 
 In the [Overview of developing on Windows with Rust](overview.md) topic, we demonstrated a simple app that outputs a *Hello, world!* message. But not only can you use Rust *on* Windows, you can also write apps *for* Windows using Rust.
 
-Rust for Windows (currently in preview form) is the latest language projection for Windows. Rust for Windows lets you use any Windows API (past, present, and future) directly and seamlessly via [the *windows* crate](https://crates.io/crates/windows) (*crate* is Rust's term for a binary or a library, and/or the source code that builds into one).
+Rust for Windows is the latest language projection for Windows. It's currently in preview form, and you can see it develop from version to version in its [change log](https://github.com/microsoft/windows-rs/blob/master/docs/changelog.md).
+
+Rust for Windows lets you use any Windows API (past, present, and future) directly and seamlessly via [the *windows* crate](https://crates.io/crates/windows) (*crate* is Rust's term for a binary or a library, and/or the source code that builds into one).
 
 Whether it's timeless functions such as [CreateEventW](/windows/win32/api/synchapi/nf-synchapi-createeventw) and [WaitForSingleObject](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject), powerful graphics engines such as [Direct3D](/windows/win32/direct3d12/directx-12-programming-guide), traditional windowing functions such as [CreateWindowExW](/windows/win32/api/winuser/nf-winuser-createwindowexw) and [DispatchMessageW](/windows/win32/api/winuser/nf-winuser-dispatchmessagew), or more recent user interface (UI) frameworks such as [Composition](/uwp/api/windows.ui.composition) and [Xaml](/uwp/api/windows.ui.xaml), [the *windows* crate](https://crates.io/crates/windows) has you covered.
 
@@ -29,7 +31,7 @@ As a Rust developer, you'll use Cargo (Rust's package management tool)&mdash;alo
 
 Similar to [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/), [Rust for Windows](https://github.com/microsoft/windows-rs) is an open source language projection developed on GitHub. Use the [Rust for Windows](https://github.com/microsoft/windows-rs) repo if you have questions about Rust for Windows, or if you wish to report issues with it.
 
-The Rust for Windows repo also has [some simple examples](https://github.com/microsoft/windows-rs/tree/master/examples) that you can follow. And there's an excellent sample app in the form of Robert Mikhayelyan's [Minesweeper](https://github.com/robmikh/minesweeper-rs).
+The Rust for Windows repo also has [some simple examples](https://github.com/microsoft/windows-samples-rs) that you can follow. And there's an excellent sample app in the form of Robert Mikhayelyan's [Minesweeper](https://github.com/robmikh/minesweeper-rs).
 
 ## Contribute to Rust for Windows
 

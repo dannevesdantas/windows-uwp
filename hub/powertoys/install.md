@@ -1,9 +1,10 @@
 ---
 title: Install PowerToys
 description: Install PowerToys, a set of utilities for customizing Windows 10, using an executable file or package manager (WinGet, Chocolatey, Scoop).
-ms.date: 12/02/2020
+ms.date: 05/28/2021
 ms.topic: quickstart
-ms.localizationpriority: medium
+ms.localizationpriority: high
+no-loc: [PowerToys, Windows, Chocolatey, Scoop]
 ---
 
 # Install PowerToys
@@ -91,3 +92,9 @@ If you have issues when installing/updating, file an issue in the [Scoop repo on
 ## Post Install
 
 After successfully installing PowerToys, an overview window will display with introductory guidance on each of the available utilities.
+
+## Updates
+
+PowerToys uses an auto-updater that checks for new versions when the app is running. If enabled, a toast notification will appear when an update is available. Updates can also be checked for manually from the PowerToys Settings menu under the General tab.
+
+![PowerToys Update](../images/powertoys-updates.png)

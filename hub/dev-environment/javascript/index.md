@@ -1,6 +1,6 @@
 ---
-title: Windows for JavaScript, NodeJS, React, and Vue developers
-description: A guide to help you get started building JavaScript apps. Install NodeJS, React, Vue, Next.js, Nuxt.js, or Gatsby and set up your development environment on Windows 10.
+title: Install JavaScript frameworks on Windows
+description: A guide to help you get started with JavaScript frameworks on Windows, including Node.js, React.js, Vue.js, Next.js, Nuxt.js, or Gatsby.
 author: mattwojo 
 ms.author: mattwoj 
 manager: jken
@@ -8,14 +8,14 @@ ms.topic: article
 ms.technology: windows-javascript
 keywords: Node.js, NodeJS, next.js, nuxt.js, gatsby, react, vue, windows, install, wsl, Set up windows, Dev Environment
 ms.localizationpriority: medium
-ms.date: 04/19/2021
+ms.date: 06/04/2021
 ---
 
-# Windows 10 for JavaScript & Node.js developers
+# Install JavaScript frameworks on Windows
 
 This guide will help you get started using JavaScript frameworks on Windows, including Node.js, React.js, Vue.js, Next.js, Nuxt.js, or Gatsby.
 
-## Choose a framework to install and set up your dev environment
+## Choose a JavaScript framework to install and set up your dev environment
 
 :::row:::
     :::column:::
@@ -58,9 +58,9 @@ This guide will help you get started using JavaScript frameworks on Windows, inc
         Nuxt.js is a framework for creating server-rendered JavaScript apps based on Vue.js, Node.js, Webpack and Babel.js. Learn how to install it on the Windows Subsystem for Linux.
     :::column-end:::
     :::column:::
-       [![Gatsby icon](../../images/gatsby-logo.png)](./nextjs-on-wsl.md)<br>
-        **[Install Next.js on WSL](./nextjs-on-wsl.md)**<br>
-        Gatsby.js is a static site generator framework based on React.js. Learn how to install it on the Windows Subsystem for Linux.
+       [![Gatsby icon](../../images/gatsby-logo.png)](./gatsby-on-wsl.md)<br>
+        **[Install Gatsby on WSL](./gatsby-on-wsl.md)**<br>
+        Gatsby is a static site generator framework based on React.js. Learn how to install it on the Windows Subsystem for Linux.
     :::column-end:::
 :::row-end:::
 
