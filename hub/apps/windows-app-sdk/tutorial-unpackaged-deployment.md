@@ -23,13 +23,12 @@ Before completing this tutorial, we recommend that you review [Runtime architect
 
 ## Prerequisites
 
-- A supported version of Visual Studio 2019. For more information, see [Set up your development environment](set-up-your-development-environment.md).
-    > [!NOTE]
-    > Although we encourage you to install the Windows App SDK extension for Visual Studio, you do not need to install the extension to perform this tutorial. In this tutorial, you will install the Windows App SDK NuGet package directly in an existing project.
-- Ensure all [dependencies for unpackaged apps](deployment-architecture.md#additional-requirements-for-unpackaged-apps) are installed. The simplest solution is to run the Windows App SDK runtime installer:
-
-  1. Download [ReunionRuntimeInstaller.exe from GitHub](https://aka.ms/projectreunion/0.8preview).
-  2. From a command prompt, run `ReunionRuntimeInstaller.exe` to install all the dependencies.
+1. [Install Visual Studio](set-up-your-development-environment.md#2-install-visual-studio).
+2. Ensure all [dependencies for unpackaged apps are installed](deploy-unpackaged-apps.md#prerequisites). The simplest solution is to run the Windows App SDK runtime installer. 
+3. C# projects using the [1.0 Experimental version of the Windows App SDK](experimental-channel.md#version-10-experimental-100-experimental1) must also use one of the following .NET SDKs: 
+	- .NET 5 SDK version 5.0.400 or later if you're using Visual Studio 2019 version 16.11
+	- .NET 5 SDK version 5.0.302 or later if you're using Visual Studio 2019 version 16.10
+	- .NET 5 SDK version 5.0.205 or later if you're using Visual Studio 2019 version 16.9
 
 ## Instructions
 
@@ -47,9 +46,9 @@ You can choose to follow this tutorial using a C++ project or a C# project that 
 2. Next, install the Windows App SDK NuGet package in your project.
 
     1. In **Solution Explorer**, right-click the **References** node and choose **Manage Nuget Packages**.
-    2. Search for **Project Reunion**, and install the latest preview version of the **Microsoft.ProjectReunion** package.
+    2. Search for **WindowsAppSDK**, and install the latest preview version of the **Microsoft.WindowsAppSDK** package.
 
-3. You are now ready to use the [dynamic dependencies API](https://github.com/microsoft/ProjectReunion/blob/main/specs/dynamicdependencies/DynamicDependencies.md) to initialize the [Bootstrapper](deployment-architecture.md#bootstrapper) component in your app. This enables you to use the Windows App SDK APIs in the app.
+3. You are now ready to use the [bootstrapper API](reference-framework-package-run-time.md) to initialize the [Bootstrapper](deployment-architecture.md#bootstrapper) component in your app. This enables you to use the Windows App SDK APIs in the app.
 
     1. Add the following include files to the top of your **DynamicDependenciesTest.cpp** file.
 
@@ -61,8 +60,11 @@ You can choose to follow this tutorial using a C++ project or a C# project that 
     2. Next, add this code at the beginning of your `main` method to initialize the Bootstrapper and handle any errors. This code defines what version of the Windows App SDK the app is dependent upon when initializing the Bootstrapper.
 
         ```cpp
-        const UINT32 majorMinorVersion{ 0x00000008 }; 
-        PCWSTR versionTag{ L"preview" }; 
+
+        // The following code is for 1.0 Experimental. If using version 0.8 Preview, replace with 
+        // majorMinorVersion{ 0x00000008 } and  versionTag{ L"preview" }
+        const UINT32 majorMinorVersion{ 0x00010000 }; 
+        PCWSTR versionTag{ L"experimental1" }; 
         const PACKAGE_VERSION minVersion{};
 
         const HRESULT hr{ MddBootstrapInitialize(majorMinorVersion, versionTag, minVersion) }; 
@@ -94,9 +96,11 @@ You can choose to follow this tutorial using a C++ project or a C# project that 
         
         int main() 
         { 
-            // Take a dependency on Windows App SDK preview 
-            const UINT32 majorMinorVersion{ 0x00000008 }; 
-            PCWSTR versionTag{ L"preview" }; 
+
+            // Take a dependency on Windows App SDK 1.0 Experimental. If using version 0.8 Preview, replace with 
+            // majorMinorVersion{ 0x00000008 } and  versionTag{ L"preview" }             
+            const UINT32 majorMinorVersion{ 0x00010000 }; 
+            PCWSTR versionTag{ L"experimental1" }; 
             const PACKAGE_VERSION minVersion{};
 
             const HRESULT hr{ MddBootstrapInitialize(majorMinorVersion, versionTag, minVersion) }; 
@@ -131,15 +135,6 @@ You can choose to follow this tutorial using a C++ project or a C# project that 
         <TargetFramework>net5.0-windows10.0.19041.0</TargetFramework>
         ```
 
-    3. Add the following **ItemGroup** element to explicitly set your .NET SDK to the correct version. Make sure that the **RuntimeFrameworkVersion** and **TargetingPackVersion** attributes are set to the same Windows 10 version numbers as the **TargetFramework** element you modified in the preview step. This is a temporary step that will no longer be needed in a future release of .NET 5. For more details, see the [WinUI 3 release notes](../winui/winui3/release-notes/release-notes-08-preview.md#known-issues).
-
-        ```xml
-        <ItemGroup>
-            <FrameworkReference Update="Microsoft.Windows.SDK.NET.Ref" RuntimeFrameworkVersion="10.0.19041.0" />
-            <FrameworkReference Update="Microsoft.Windows.SDK.NET.Ref" TargetingPackVersion="10.0.19041.0" />
-        </ItemGroup>
-        ```
-
     4. Save and close the project file.
 
 3. Change the platform for your solution to **x64**. The default value in a .NET 5 project is **AnyCPU**, but WinUI 3 does not support this platform.
@@ -153,9 +148,9 @@ You can choose to follow this tutorial using a C++ project or a C# project that 
 4. Install the Windows App SDK NuGet package in your project.
 
     1. In **Solution Explorer**, right-click the **Dependencies** node and choose **Manage Nuget Packages**.
-    2. Search for **Project Reunion**, and install the latest preview version of the **Microsoft.ProjectReunion** package.
+    2. Search for **WindowsAppSDK**, and install version 1.0 Experimental or later of the **Microsoft.WindowsAppSDK** package. For older versions, search for **Project Reunion**, and install the **Microsoft.ProjectReunion** package.  
 
-5. You are now ready to use the [dynamic dependencies API](https://github.com/microsoft/ProjectReunion/blob/main/specs/dynamicdependencies/DynamicDependencies.md) to initialize the [Bootstrapper](deployment-architecture.md#bootstrapper) component in your app. This enables you to use the Windows App SDK APIs in the app.
+5. You are now ready to use the [bootstrapper API](reference-framework-package-run-time.md) to initialize the [Bootstrapper](deployment-architecture.md#bootstrapper) component in your app. This enables you to use the Windows App SDK APIs in the app.
 
     1. Add a new code file named **MddBootstrap.cs** to your project and add the following code to it.
 
@@ -220,7 +215,9 @@ You can choose to follow this tutorial using a C++ project or a C# project that 
                     return MddBootstrapInitialize(majorMinorVersion, versionTag, minVersion);
                 }
         
-                [DllImport("Microsoft.ProjectReunion.Bootstrap.dll", CharSet = CharSet.Unicode)]
+                // Import the bootstrapper library for Windows App SDK 1.0 Experimental. If using version 0.8 Preview, 
+                // replace with Microsoft.ProjectReunion.Bootstrap.dll.
+                [DllImport("Microsoft.WindowsAppSDK.Bootstrap.dll", CharSet = CharSet.Unicode)]
                 private static extern int MddBootstrapInitialize(uint majorMinorVersion, string versionTag, PackageVersion packageVersion);
         
                 public static void Shutdown()
@@ -228,7 +225,9 @@ You can choose to follow this tutorial using a C++ project or a C# project that 
                     MddBootstrapShutdown();
                 }
         
-                [DllImport("Microsoft.ProjectReunion.Bootstrap.dll")]
+                // Import the bootstrapper library for Windows App SDK 1.0 Experimental. If using version 0.8 Preview, 
+                // replace with Microsoft.ProjectReunion.Bootstrap.dll.
+                [DllImport("Microsoft.WindowsAppSDK.Bootstrap.dll")]
                 private static extern void MddBootstrapShutdown();
             }
         }
@@ -246,8 +245,10 @@ You can choose to follow this tutorial using a C++ project or a C# project that 
             {
                 static void Main(string[] args)
                 {
-                    // Take a dependency on the Windows App SDK v0.8 preview.
-                    MddBootstrap.Initialize(8, "preview");
+                
+                    // Take a dependency on Windows App SDK 1.0 Experimental. If using version 0.8 Preview, 
+                    // replace with MddBootstrap.Initialize(8, "preview").
+                    MddBootstrap.Initialize(0x00010000, "experimental1");
         
                     Console.WriteLine("Hello World!");
         

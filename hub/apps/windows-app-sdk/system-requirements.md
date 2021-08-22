@@ -15,11 +15,14 @@ To develop apps for Windows 11 and Windows 10, you'll need Visual Studio, the Wi
 
 For instructions to install and set up these tools, see [Set up your development environment](set-up-your-development-environment.md).
 
-## Visual Studio 2019
+## Visual Studio
 
 Visual Studio is a comprehensive integrated development environment (IDE) that you can use to edit, debug, and build code, and then publish your app.
 
-For the minimum system requirements, see [Visual Studio 2019 system requirements](/visualstudio/releases/2019/system-requirements#visual-studio-2019-system-requirements).
+For the minimum system requirements, see:
+
+- [Visual Studio 2022 system requirements](/visualstudio/releases/2022/system-requirements#visual-studio-2022-system-requirements)
+- [Visual Studio 2019 system requirements](/visualstudio/releases/2019/system-requirements#visual-studio-2019-system-requirements)
 
 ## Windows SDK
 
@@ -51,12 +54,13 @@ The Windows App SDK has these system requirements:
 
 ### Visual Studio support for WinUI 3 tools
 
-You can build, run, and deploy apps built with stable versions of the Windows App SDK on Visual Studio 2019 versions 16.9, 16.10, and 16.11 Preview. However, in order to take advantage of the latest WinUI 3 tooling features such as Hot Reload, Live Visual Tree, and Live Property Explorer, you need the versions of Visual Studio 2019 with the stable versions of the Windows App SDK as listed in the following table.
+You can build, run, and deploy apps built with stable versions of the Windows App SDK on Visual Studio 2019 versions 16.9, 16.10, and 16.11 Preview. You can also use Visual Studio 2022 17.0 Preview 2 and above to build apps with the Windows App SDK v0.8.2 and above. However, in order to take advantage of the latest WinUI 3 tooling features such as Hot Reload, Live Visual Tree, and Live Property Explorer, you need the versions of Visual Studio 2019 with the stable versions of the Windows App SDK as listed in the following table.
 
-|   | Visual Studio 2019 16.9  |Visual Studio 2019 16.10  |  Visual Studio 2019 16.11 Previews |
-|---|---|---|---|
-| **Windows App SDK 0.5** | Tools unavailable | Tools available   |  Tools unavailable   |
-| **Windows App SDK 0.8** | Tools unavailable  | Tools unavailable | Tools available starting with Visual Studio 2019 16.11 Preview 3  |
+|   | Visual Studio 2019 16.9  |Visual Studio 2019 16.10  |  Visual Studio 2019 16.11 Previews | Visual Studio 2022 17.0 Previews |
+|---|---|---|---|---|
+| **Windows App SDK 0.5** | Tools unavailable | Tools available   |  Tools unavailable   | Tools unavailable   |
+| **Windows App SDK 0.8** | Tools unavailable  | Tools unavailable | Tools available starting with Visual Studio 2019 16.11 Preview 3  | Tools available starting with Visual Studio 2022 17.0 Preview 2 (Windows App SDK v0.8.2+ only) |
+| **Windows App SDK 1.0 Experimental** | Tools unavailable  | Tools unavailable | Tools available starting with Visual Studio 2019 16.11 Preview 3   | Tools available starting with Visual Studio 2022 17.0 Preview 2   |
 
 ## Related topics
 
