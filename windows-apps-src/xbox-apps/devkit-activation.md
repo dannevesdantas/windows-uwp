@@ -1,5 +1,5 @@
 ---
-title: Xbox One Developer Mode activation
+title: Xbox Developer Mode activation
 description: How to activate Developer Mode so you can switch between Retail Mode and Developer Mode.
 ms.date: 02/08/2017
 ms.topic: article
@@ -7,7 +7,7 @@ keywords: windows 10, uwp
 ms.assetid: ade80769-17ae-46e9-9c2f-bf08ae5a51ee
 ms.localizationpriority: medium
 ---
-# Xbox One Developer Mode activation
+# Xbox Developer Mode activation
 
 ## How Developer Mode works
 This article only applies to Xbox One and Xbox Series X|S consoles acquired through retail channels. For development kit HW acquired via a managed development program, see the note down below.
