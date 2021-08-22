@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 # Xbox One Developer Mode activation
 
 ## How Developer Mode works
-This article only applies to Xbox One and Xbox Series X|S consoles acquired through retail channels. For development kit HW acquired via a managed development program, see the note at the end of the article.
+This article only applies to Xbox One and Xbox Series X|S consoles acquired through retail channels. For development kit HW acquired via a managed development program, see the note down below.
 
 Xbox retail consoles can have two modes, Retail Mode (1) and Developer Mode (2). In Retail Mode, the console is in its normal state: you can play games and run apps acquired through the Xbox store. In Developer Mode, you can develop and test software for the console, but you cannot play retail games or run retail apps.
 
