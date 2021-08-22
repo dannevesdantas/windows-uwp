@@ -37,7 +37,7 @@ Developer Mode can be enabled on any retail Xbox console, via the **Settings** >
 
     ![Xbox Developer settings menu entry](images/xbox-developer-settings-menu-entry.png)
 
-5.	Go to **Developer settings** > Check **Developer mode** > **Continue**. Your Xbox console will restart.
+5.	Go to **Developer settings** > Check **Developer mode** and choose **Continue**. Your Xbox console will restart.
 
     ![Xbox Developer settings](images/xbox-developer-settings.png)
     
