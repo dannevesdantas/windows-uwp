@@ -33,7 +33,7 @@ Developer Mode can be enabled on any retail Xbox console, via the **Settings** >
 
     ![Xbox System Console info](images/xbox-settings-console-info.png)
 
-4.	On your controller, press **LB**, **RB**, **LT**, **RT**, in that order. The Developer settings menu entry will be shown.
+4.	On your controller, press **LB**, **RB**, **LT**, **RT**, in that order. The Developer settings menu entry will be shown, as below.
 
     ![Xbox Developer settings menu entry](images/xbox-developer-settings-menu-entry.png)
 
