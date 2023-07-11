@@ -9,12 +9,9 @@ ms.localizationpriority: medium
 # Author Windows Runtime components with C#/WinRT
 
 > [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+> Authoring Windows Runtime components with C#/WinRT is supported on .NET 6 and later.
 
-> [!NOTE]
-> The C#/WinRT authoring support described in this article is currently in preview. We recommend using .NET 6 or later for authoring scenarios.
-
-The C#/WinRT NuGet package provides support for authoring your own Windows Runtime types and components in C#, and consuming them from any Windows Runtime-compatible language such as [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/) or [Rust](/windows/dev-environment/rust/rust-for-windows). C#/WinRT authoring and hosting support requires .NET 6 and Visual Studio 2022, and it is intended to support desktop application scenarios including the [Windows App SDK](/windows/apps/windows-app-sdk/), and [WinUI3](/windows/apps/winui/winui3/).
+The C#/WinRT NuGet package provides support for authoring your own Windows Runtime types and components in C#, and consuming them from any Windows Runtime-compatible language such as [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/) or [Rust](../../../../dev-environment/rust/rust-for-windows.md). C#/WinRT authoring and hosting support requires .NET 6 and Visual Studio 2022, and it is intended to support desktop application scenarios including the [Windows App SDK](../../../windows-app-sdk/index.md), and [WinUI3](../../../winui/winui3/index.md).
 
 For a walkthrough showing how to author a Windows Runtime component with .NET 6, and how to consume it from a C++/WinRT console application, see [Walkthrough: Create a C#/WinRT component and consume it from C++/WinRT](./create-windows-runtime-component-cswinrt.md).
 
@@ -24,14 +21,14 @@ For more details, and to search for or file any issues, refer to the [C#/WinRT G
 
 While authoring your Windows Runtime component, follow the guidelines and type restrictions outlined in the existing UWP documentation about Windows Runtime components (see [Windows Runtime components with C# and Visual Basic](/windows/uwp/winrt-components/creating-windows-runtime-components-in-csharp-and-visual-basic)). The component can for the most part be implemented like any other C# library. However, there are restrictions on the public types in the component that will be exposed to the Windows Runtime and declared in the generated `.winmd` for others to consume. 
 
-Externally, you can expose only Windows Runtime types for parameters and return values. You can use built-in C# types as part of the public surface of the component as long as there is a mapping from the .NET type to WinRT (see [.NET mappings of WinRT types in C#/WinRT](/windows/apps/develop/platform/csharp-winrt/net-mappings-of-winrt-types)), and they will appear to users of the component as the corresponding Windows Runtime types. Windows Runtime types from other Windows Runtime components and the Windows SDK can also be used as part of the public implementation of the component, such as `in` parameters, return types, and class inheritance.
+Externally, you can expose only Windows Runtime types for parameters and return values. You can use built-in C# types as part of the public surface of the component as long as there is a mapping from the .NET type to WinRT (see [.NET mappings of WinRT types in C#/WinRT](./net-mappings-of-winrt-types.md)), and they will appear to users of the component as the corresponding Windows Runtime types. Windows Runtime types from other Windows Runtime components and the Windows SDK can also be used as part of the public implementation of the component, such as `in` parameters, return types, and class inheritance.
 
 > [!NOTE]
-> There are some Windows Runtime types that are mapped to .NET types (see [.NET mappings of WinRT types in C#/WinRT](/windows/apps/develop/platform/csharp-winrt/net-mappings-of-winrt-types)). These .NET types can be used in the public interface of your Windows Runtime component, and they will appear to users of the component as the corresponding Windows Runtime types.
+> There are some Windows Runtime types that are mapped to .NET types (see [.NET mappings of WinRT types in C#/WinRT](./net-mappings-of-winrt-types.md)). These .NET types can be used in the public interface of your Windows Runtime component, and they will appear to users of the component as the corresponding Windows Runtime types.
 
 ## Related topics
 
 * [Authoring C#/WinRT Components](https://github.com/microsoft/CsWinRT/blob/master/docs/authoring.md)
 * [Walkthrough: Create a C#/WinRT component and consume it from C++/WinRT](./create-windows-runtime-component-cswinrt.md)
 * [Diagnose C#/WinRT component errors](./authoring-diagnostics.md)
-* [.NET mappings of WinRT types in C#/WinRT](/windows/apps/develop/platform/csharp-winrt/net-mappings-of-winrt-types)
+* [.NET mappings of WinRT types in C#/WinRT](./net-mappings-of-winrt-types.md)

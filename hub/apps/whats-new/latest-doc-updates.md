@@ -2,7 +2,7 @@
 description: Discover the latest additions to the Windows developer docs.
 title: Latest updates to the Windows API and developer documentation
 ms.topic: article
-ms.date: 02/18/2022
+ms.date: 6/16/2023
 ms.localizationpriority: medium
 ms.author: quradic
 author: QuinnRadich
@@ -10,297 +10,189 @@ author: QuinnRadich
 
 # Latest updates to the Windows developer docs
 
-The Windows developer docs are regularly updated with new and improved information and content. Here is a summary of changes as of February 18th, 2022.
+The Windows developer docs are regularly updated with new and improved information and content. Here is a summary of changes as of June 16th, 2023.
 
 Note: For information regarding Windows 11, please see [What's cool for developers](https://developer.microsoft.com/windows/windows-for-developers/) and the [Windows Developer Center](https://developer.microsoft.com/windows/).
 
 For the latest Windows Developer Documentation news, or to reach out to us with comments and questions, feel free to find us on Twitter, where our handle is [@WindowsDocs](https://twitter.com/windowsdocs).
 
-Many thanks to everyone who has contributed to the documentation. Your corrections and suggestions are very welcome! For information on contributing to Microsoft docs, please see the [contributor guide](/contribute/).
+Don't forget to visit the [Windows Developer Center](https://developer.microsoft.com/windows/), where we highlight some of the latest technologies, frameworks and news for Windows developers.
+
+*Many thanks to everyone who has contributed to the documentation. Your corrections and suggestions are very welcome! For information on contributing, please see our [contributor guide](/contribute/).*
 
 Highlights this month include:
 
-## Sample apps
+## Microsoft Build announcements for Windows developers
 
-* A Windows App SDK 1.0 Stable version of [Photo Editor (C# and C++/WinRT)](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/PhotoEditor)
+* [Dev Home](/windows/dev-home/): Monitor your work in the centralized dashboard, GitHub and System performance widgets. Get setup and onboard new projects with the Machine configuration tool. Learn about Dev Home’s:  
+    * [Dashboard widgets](/windows/dev-home/), including the ability to set up customized GitHub feeds, 
+    * [Machine configuration tool](/windows/dev-home/setup) for setting up a new machine or onboard a new project, and  
+    * [Customizable extensions](/windows/dev-home/extensions), with the ability to set up GitHub notifications or build and share your own Open Source extension for Dev Home. 
 
-## Windows App SDK / WinUI
+* [Dev Drive](/windows/dev-drive/): Improve your dev workload performance using this new storage format, using ReFS and specifically designed for developer scenarios, with the ability to designate trust, manage antivirus configurations, and attach security filters. 
+    * Microsoft Defender has a new [performance mode](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-antivirus-performance-mode?view=o365-worldwide) specifically designed for Dev Drive. 
 
-* [Title bar customization](/windows/apps/develop/title-bar?WT.mc_id=windowsdocs-twitter&tabs=wasdk)
+* [WinGet Configuration](/windows/package-manager/configuration/): Consolidate manual machine setup and project onboarding to a single command that is reliable and repeatable. Learn how to: 
+    * [Author a WinGet Configuration file](/windows/package-manager/configuration/create), 
+    * [Check the trustworthiness of a WinGet Configuration file](/windows/package-manager/configuration/check), 
+    * [Use the winget configure command](/windows/package-manager/winget/configure) to begin setting up your machine to the desired configuration state. 
 
-## Other new content
+* [PowerToys](/windows/powertoys/): These open source utilities are suggested by and developed with the help of the developer community using Windows. New utilities in the .70 release include: 
+    * [Mouse without Borders](/windows/powertoys/mouse-without-borders), for seamless transition between multiple machines from the same keyboard and mouse, sharing clipboard contents and files,  
+    * [Peek](/windows/powertoys/peek), for previewing file content without the need to open multiple apps or interrupt your workflow, 
+    * [Paste as Plain Text](/windows/powertoys/paste-as-plain-text), for pasting text from your clipboard, excluding any text-formatting. 
 
-* [Byte-sized C++ tutorials](https://github.com/MicrosoftDocs/windows-devdocs-team/tree/main/bite-sized-cpp)
+* [Windows Terminal](/windows/terminal/): Customize your terminal and running multiple command lines, all set up to their specific preferences. Learn more about how to customize your prompt and the new Tab Tearout feature. 
 
-## Updated content
+* [Windows Copilot](/windows/dev-environment/): The first PC platform to provide centralized AI assistance and designed to help people easily take action and get things done is coming soon! 
 
-* Deep revision/refactor of [Call interop APIs from a .NET 5+ app](/windows/apps/desktop/modernize/winrt-com-interop-csharp), including expanding its scope with a new set of interop methods.
-* Added info to [AppInstance.GetActivatedEventArgs](/windows/windows-app-sdk/api/winrt/microsoft.windows.applifecycle.appinstance.getactivatedeventargs) about Windows App SDK behavior.
-* [DirectML 1.8](/windows/ai/directml/dml-version-history) documentation refresh.
-* Revision of [UserConsentVerifier](/uwp/api/windows.security.credentials.ui.userconsentverifier) class to add info about calling it from various kinds of desktop apps, and improved code formatting.
+* [Windows on Arm](/windows/arm/overview): We’ve got a new tutorial that can help you update your apps to run natively on Arm. 
 
-## Developer tool updates
-
-* [Windows Terminal updates](/windows/terminal/)
-* [Windows Subsystem for Android updates](/windows/android/wsa/)
-* [Windows Subsystem for Linux updates](/windows/wsl/about)
-* [Windows Package Manager updates](/windows/package-manager/)
-
-## Tabs vs. Spaces Show
-
-* [Windows Package Manager: Winget v1.0](/shows/Tabs-vs-Spaces/Windows-Package-Manager-Winget-v10)
 
 <hr>
 
-## Updated in the last month
 
-The following list of topics have seen significant updates in the past month, as per GitHub logs:
+The following list of topics have also seen significant updates in the past month:
 
-## Windows UWP conceptual
+## Windows App SDK / WinUI
 
-<ul>
-<li><a href="/windows/uwp/composition/visual-layer">Visual Layer</a></li>
-<li><a href="/windows/uwp/cpp-and-winrt-apis/get-started">Get started with C++/WinRT</a></li>
-<li><a href="/windows/uwp/cpp-and-winrt-apis/index">C++/WinRT</a></li>
-<li><a href="/windows/uwp/debug-test-perf/device-portal">Windows Device Portal overview</a></li>
-<li><a href="/windows/uwp/debug-test-perf/index">Debugging, testing, and performance</a></li>
-<li><a href="/windows/uwp/develop/index">Develop UWP apps</a></li>
-<li><a href="/windows/uwp/enterprise/index">Enterprise</a></li>
-<li><a href="/windows/uwp/gaming/e2e">Windows game development guide</a></li>
-<li><a href="/windows/uwp/gaming/getting-started">Getting started</a></li>
-<li><a href="/windows/uwp/get-started/create-uwp-apps">Create apps with the Universal Windows Platform</a></li>
-<li><a href="/windows/uwp/get-started/index">Get started with the Universal Windows Platform (UWP)</a></li>
-</ul>
+* [WinAppSDK 1.4 Experimental Release Notes](/windows/apps/windows-app-sdk/experimental-channel)
 
-## Win32 conceptual
 
-<ul>
-<li><a href="/windows/desktop/AD/how-to-extend-the-schema">How to Extend the Schema</a></li>
-<li><a href="/windows/desktop/Bits/what-s-new">What's New (BITS)</a></li>
-<li><a href="/windows/desktop/Direct2D/svg-support">SVG Support</a></li>
-<li><a href="/windows/desktop/FileIO/basic-and-dynamic-disks">Basic and Dynamic Disks</a></li>
-<li><a href="/windows/desktop/OpenGL/glend">glEnd function (Gl.h)</a></li>
-<li><a href="/windows/desktop/Power/ioctl-battery-query-status">IOCTL_BATTERY_QUERY_STATUS control code (Poclass.h)</a></li>
-<li><a href="/windows/desktop/Power/ioctl-battery-query-tag">IOCTL_BATTERY_QUERY_TAG control code (Poclass.h)</a></li>
-<li><a href="/windows/desktop/SecBP/control-flow-guard">Control Flow Guard</a></li>
-<li><a href="/windows/desktop/WinInet/option-flags">Option Flags (Wininet.h)</a></li>
-<li><a href="/windows/desktop/WinRM/multi-hop-support">Multi-Hop Support in WinRM</a></li>
-<li><a href="/windows/desktop/WinRM/resource-uris">Resource URIs</a></li>
-<li><a href="/windows/desktop/WinSock/so-keepalive">SO_KEEPALIVE socket option (Ws2def.h)</a></li>
-<li><a href="/windows/desktop/WinSock/tcp-ip-raw-sockets-2">TCP/IP raw sockets</a></li>
-<li><a href="/windows/desktop/WinSock/winsock-ioctls">Winsock IOCTLs (Winsock2.h)</a></li>
-<li><a href="/windows/desktop/WmiSdk/enumerating-wmi">Enumerating WMI</a></li>
-<li><a href="/windows/desktop/com/localserver32">LocalServer32</a></li>
-<li><a href="/windows/desktop/dataxchg/using-the-clipboard">Using the Clipboard</a></li>
-<li><a href="/windows/desktop/direct3dhlsl/d3dcompile-constants">D3DCOMPILE Constants (D3DCompiler.h)</a></li>
-<li><a href="/windows/desktop/dlgbox/common-dialog-box-functions">Common dialog box functions</a></li>
-<li><a href="/windows/desktop/eaphost/sdk-connection-properties">SDK Connection Properties</a></li>
-<li><a href="/windows/desktop/imapi/imapi-interfaces">IMAPI Interfaces</a></li>
-<li><a href="/windows/desktop/menurc/using-cursors">Using Cursors</a></li>
-<li><a href="/windows/desktop/menurc/using-icons">Using Icons</a></li>
-<li><a href="/windows/desktop/menurc/using-keyboard-accelerators">Using Keyboard Accelerators</a></li>
-<li><a href="/windows/desktop/menurc/versioninfo-resource">VERSIONINFO resource</a></li>
-<li><a href="/windows/desktop/uxguide/cmd-menus">Windows 7 Menus (Design basics)</a></li>
-<li><a href="/windows/desktop/uxguide/cmd-ribbons">Windows 7 Ribbons</a></li>
-<li><a href="/windows/desktop/uxguide/cmd-toolbars">Windows 7 Toolbars</a></li>
-<li><a href="/windows/desktop/uxguide/ctrl-drop">Windows 7 Drop-down Lists Combo Boxes</a></li>
-<li><a href="/windows/desktop/uxguide/inter-mouse">Windows 7 Mouse and Pointers</a></li>
-<li><a href="/windows/desktop/uxguide/win-dialog-box">Windows 7 Dialog Boxes (Design basics)</a></li>
-<li><a href="/windows/desktop/wpd_sdk/wpd-content-type-media-cast">WPD_CONTENT_TYPE_MEDIA_CAST</a></li>
-</ul>
+## Code samples, tutorials and Learn Module updates
+
+* Added [examples page for a new Win32 bindlink.h header](/windows/win32/bindlink/bindlink-example). 
+* Added [examples page for a new Win32 hwreqchkapi.h header](/windows/win32/hwreqchkapi/hwreqchk-examples), including four code examples. 
+* Rust: Fixed the code sample in [RSS reader tutorial](/windows/dev-environment/rust/rss-reader-rust-for-windows). 
+* C++/WinRT: Updated [A completion source sample](/windows/uwp/cpp-and-winrt-apis/concurrency-3). 
+
+
+## Updated content
+
+* [WindowsTabManager Class](/uwp/api/windows.ui.shell.windowtabmanager?view=winrt-22621)
+* [NavigationView](/windows/apps/design/controls/navigationview)
+* [Apply Mica or Acrylic materials](/windows/apps/windows-app-sdk/system-backdrop-controller)
+* [Use the Windows App SDK in a WPF app](/windows/apps/windows-app-sdk/wpf-plus-winappsdk)
+* [Win2D](/windows/apps/develop/win2d/) content migrated from GitHub
+
+
+## Developer tool updates
+
+* [Windows Subsystem for Linux, Enterprise and Security Control Options](/windows/wsl/enterprise).
+* [Windows Subsystem for Android updates](/windows/android/wsa/).
+* [Windows Package Manager updates](/windows/package-manager/).
+* [PowerToys](/windows/powertoys/install).
+
+
+
+
+
+## Win32 Conceptual
+
+* [LVM_ENABLEGROUPVIEW message (Commctrl.h)](/windows/desktop/Controls/lvm-enablegroupview)
+* [LVM_GETGROUPINFO message (Commctrl.h)](/windows/desktop/Controls/lvm-getgroupinfo)
+* [LVM_HASGROUP message (Commctrl.h)](/windows/desktop/Controls/lvm-hasgroup)
+* [LVM_HITTEST message (Commctrl.h)](/windows/desktop/Controls/lvm-hittest)
+* [LVM_INSERTGROUP message (Commctrl.h)](/windows/desktop/Controls/lvm-insertgroup)
+* [LVM_REMOVEALLGROUPS message (Commctrl.h)](/windows/desktop/Controls/lvm-removeallgroups)
+* [LVM_SETGROUPINFO message (Commctrl.h)](/windows/desktop/Controls/lvm-setgroupinfo)
+* [LVM_SUBITEMHITTEST message (Commctrl.h)](/windows/desktop/Controls/lvm-subitemhittest)
+* [PE Format](/windows/desktop/Debug/pe-format)
+* [TelIsOsInProcessorMode function](/windows/desktop/DevNotes/tellsIsosinprocessormode)
+* [Scale effect](/windows/desktop/Direct2D/high-quality-scale)
+* [File Attribute Constants (WinNT.h)](/windows/desktop/FileIO/file-attribute-constants)
+* [Setting the Cursor Image](/windows/desktop/LearnWin32/setting-the-cursor-image)
+* [Working Set](/windows/desktop/Memory/working-set)
+* [Playing a MIDI File](/windows/desktop/Multimedia/playing-a-midi-file)
+* [Bootstrap profile sample](/windows/desktop/NativeWiFi/bootstrap-profile-sample)
+* [FIPS profile sample](/windows/desktop/NativeWiFi/fips-profile-sample)
+* [OneX Schema](/windows/desktop/NativeWiFi/onexschema-schema)
+* [Network Policy Server](/windows/desktop/Nps/portal)
+* [Application manifests](/windows/desktop/SbsCs/application-manifests)
+* [Assembly Manifests](/windows/desktop/SbsCs/assembly-manifests)
+* [Cipher Suites in TLS/SSL (Schannel SSP)](/windows/desktop/SecAuthN/cipher-suites-in-schannel)
+* [CNG Algorithm Identifiers (Bcrypt.h)](/windows/desktop/SecCNG/cng-algorithm-identifiers)
+* [CNG DPAPI](/windows/desktop/SecCNG/cng-dpapi)
+* [Child Sessions](/windows/desktop/TermServ/child-sessions)
+* [pragma classflags](/windows/desktop/WmiSdk/pragma-classflags)
+* [Capturing WinHTTP Logs](/windows/desktop/WsdApi/capturing-winhttp-logs)
+* [API set loader operation](/windows/desktop/apiindex/api-set-loader-operation)
+* [Windows API index](/windows/desktop/apiindex/windows-api-list)
+* [Windows API sets](/windows/desktop/apiindex/windows-apisets)
+* [Windows umbrella libraries](/windows/desktop/apiindex/windows-umbrella-libraries)
+* [Bind link API enums](/windows/desktop/bindlink/bindlink-api-enums)
+* [Bind link API functions](/windows/desktop/bindlink/bindlink-api-functions)
+* [Bind link API examples](/windows/desktop/bindlink/bindlink-example)
+* [Overview of the Bindlink API](/windows/desktop/bindlink/bindlink-overview)
+* [Bindlink API (bindlink.h)](/windows/desktop/bindlink/index)
+* [DirectComposition interfaces](/windows/desktop/directcomp/interfaces)
+* [About the EAP and EAPHost relationship](/windows/desktop/eap/about-eaphost)
+* [Configuration User Interface](/windows/desktop/eap/configuration-user-interface)
+* [EAP Enumerations](/windows/desktop/eap/eap-enumerations)
+* [EAP Frequently Asked Questions](/windows/desktop/eap/eap-frequently-asked-questions)
+* [EAP Functions](/windows/desktop/eap/eap-functions)
+* [EAP Implementation Details](/windows/desktop/eap/eap-implementation-details)
+* [EAP Installation](/windows/desktop/eap/eap-installation)
+* [EAP Interfaces](/windows/desktop/eap/eap-interfaces)
+* [Extensible Authentication Protocol](/windows/desktop/eap/eap-start-page)
+* [EAP Structures](/windows/desktop/eap/eap-structures)
+* [Interactive User Interface](/windows/desktop/eap/interactive-user-interface)
+* [Obtaining Identity Information](/windows/desktop/eap/obtaining-identity-information)
+* [Access Point Initialization of EAP](/windows/desktop/eap/ras-initialization-of-eap)
+* [Registry Values Example](/windows/desktop/eap/registry-values-example)
+* [User Authentication](/windows/desktop/eap/user-authentication)
+* [Extensible Authentication Protocol Host](/windows/desktop/eaphost/portal)
+* [HWREQCHK API enums](/windows/desktop/hwreqchkapi/hwreqchk-api-enums)
+* [HWREQCHK API functions](/windows/desktop/hwreqchkapi/hwreqchk-api-functions)
+* [HWREQCHK API structures](/windows/desktop/hwreqchkapi/hwreqchk-api-structures)
+* [HWREQCHK API examples](/windows/desktop/hwreqchkapi/hwreqchk-examples)
+* [Overview of the HWREQCHK API](/windows/desktop/hwreqchkapi/hwreqchk-overview)
+* [HWREQCHK API](/windows/desktop/hwreqchkapi/index)
+* [Image Stride](/windows/desktop/medfound/image-stride)
+* [About Cursors](/windows/desktop/menurc/about-cursors)
+* [About Icons](/windows/desktop/menurc/about-icons)
+* [STRINGTABLE resource](/windows/desktop/menurc/stringtable-resource)
 
 ## Win32 API reference
+* [Data Access and Storage](/windows/win32/api/_fs/index)
+* [Human Interface Devices Reference](/windows/win32/api/_hid/index)
+* [Hardware Requirement Evaluator (HWREQCHK)](/windows/win32/api/_hwreqchk/index)
+* [bindlink (bindlink.h)](/windows/win32/api/bindlink/index)
+* [hwreqchkapi (hwreqchkapi.h)](/windows/win32/api/hwreqchkapi/index)
+* [CopyFile function (winbase.h)](/windows/win32/api/winbase/nf-winbase-copyfile)
+* [MoveFile function (winbase.h)](/windows/win32/api/winbase/nf-winbase-movefile)
+* [ToAscii function (winuser.h)](/windows/win32/api/winuser/nf-winuser-toascii)
 
-<ul>
-<li><a href="/windows/win32/api/cfapi/ne-cfapi-cf_pin_state">CF_PIN_STATE (cfapi.h) </a></li>
-<li><a href="/windows/win32/api/comsvcs/ne-comsvcs-crmflags">CRMFLAGS (comsvcs.h) </a></li>
-<li><a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick (ctfutb.h) </a></li>
-<li><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_arc_size">D2D1_ARC_SIZE (d2d1.h) </a></li>
-<li><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE (d2d1.h) </a></li>
-<li><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_fill_mode">D2D1_FILL_MODE (d2d1.h) </a></li>
-<li><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_gamma">D2D1_GAMMA (d2d1.h) </a></li>
-<li><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_line_join">D2D1_LINE_JOIN (d2d1.h) </a></li>
-<li><a href="/windows/win32/api/d3d10/ne-d3d10-d3d10_blend">D3D10_BLEND (d3d10.h) </a></li>
-<li><a href="/windows/win32/api/d3d10/ne-d3d10-d3d10_filter">D3D10_FILTER (d3d10.h) </a></li>
-<li><a href="/windows/win32/api/d3d10/ne-d3d10-d3d10_map">D3D10_MAP (d3d10.h) </a></li>
-<li><a href="/windows/win32/api/d3d10/ne-d3d10-d3d10_usage">D3D10_USAGE (d3d10.h) </a></li>
-<li><a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_blend">D3D11_BLEND (d3d11.h) </a></li>
-<li><a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_filter">D3D11_FILTER (d3d11.h) </a></li>
-<li><a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_map">D3D11_MAP (d3d11.h) </a></li>
-<li><a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE (d3d11.h) </a></li>
-<li><a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_blend">D3D12_BLEND (d3d12.h) </a></li>
-<li><a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER (d3d12.h) </a></li>
-<li><a href="/windows/win32/api/docobj/ne-docobj-docmisc">DOCMISC (docobj.h) </a></li>
-<li><a href="/windows/win32/api/docobj/ne-docobj-olecmdf">OLECMDF (docobj.h) </a></li>
-<li><a href="/windows/win32/api/docobj/ne-docobj-olecmdid">OLECMDID (docobj.h) </a></li>
-<li><a href="/windows/win32/api/drt/ne-drt-drt_event_type">DRT_EVENT_TYPE (drt.h) </a></li>
-<li><a href="/windows/win32/api/drt/ne-drt-drt_match_type">DRT_MATCH_TYPE (drt.h) </a></li>
-<li><a href="/windows/win32/api/drt/ne-drt-drt_scope">DRT_SCOPE (drt.h) </a></li>
-<li><a href="/windows/win32/api/drt/ne-drt-drt_status">DRT_STATUS (drt.h) </a></li>
-<li><a href="/windows/win32/api/dxgi/ne-dxgi-dxgi_residency">DXGI_RESIDENCY (dxgi.h) </a></li>
-<li><a href="/windows/win32/api/encdec/ne-encdec-prottype">ProtType (encdec.h) </a></li>
-<li><a href="/windows/win32/api/evr/ne-evr-mfvideomixprefs">MFVideoMixPrefs (evr.h) </a></li>
-<li><a href="/windows/win32/api/filter/ne-filter-chunkstate">CHUNKSTATE (filter.h) </a></li>
-<li><a href="/windows/win32/api/http/ne-http-http_header_id">HTTP_HEADER_ID (http.h) </a></li>
-<li><a href="/windows/win32/api/iads/ne-iads-ads_derefenum">ADS_DEREFENUM (iads.h) </a></li>
-<li><a href="/windows/win32/api/iads/ne-iads-ads_scopeenum">ADS_SCOPEENUM (iads.h) </a></li>
-<li><a href="/windows/win32/api/icm/ne-icm-bmformat">BMFORMAT </a></li>
-<li><a href="/windows/win32/api/ifdef/ne-ifdef-tunnel_type">TUNNEL_TYPE (ifdef.h) </a></li>
-<li><a href="/windows/win32/api/inked/ne-inked-inkmode">InkMode (inked.h) </a></li>
-<li><a href="/windows/win32/api/inked/ne-inked-mousebutton">MouseButton (inked.h) </a></li>
-<li><a href="/windows/win32/api/ipmib/ne-ipmib-icmp4_type">ICMP4_TYPE (ipmib.h) </a></li>
-<li><a href="/windows/win32/api/ipmib/ne-ipmib-icmp6_type">ICMP6_TYPE (ipmib.h) </a></li>
-<li><a href="/windows/win32/api/mi/ne-mi-mi_errorcategory">MI_ErrorCategory (mi.h) </a></li>
-<li><a href="/windows/win32/api/mi/ne-mi-mi_result">MI_Result (mi.h) </a></li>
-<li><a href="/windows/win32/api/mi/ne-mi-mi_type">MI_Type (mi.h) </a></li>
-<li><a href="/windows/win32/api/mmc/ne-mmc-iconidentifier">IconIdentifier (mmc.h) </a></li>
-<li><a href="/windows/win32/api/mmc/ne-mmc-mmc_button_state">MMC_BUTTON_STATE (mmc.h) </a></li>
-<li><a href="/windows/win32/api/mmc/ne-mmc-mmc_console_verb">MMC_CONSOLE_VERB (mmc.h) </a></li>
-<li><a href="/windows/win32/api/mmc/ne-mmc-mmc_filter_type">MMC_FILTER_TYPE (mmc.h) </a></li>
-<li><a href="/windows/win32/api/mmc/ne-mmc-mmc_notify_type">MMC_NOTIFY_TYPE (mmc.h) </a></li>
-<li><a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor (msctf.h) </a></li>
-<li><a href="/windows/win32/api/msctf/ne-msctf-tfgravity">TfGravity (msctf.h) </a></li>
-<li><a href="/windows/win32/api/msctf/ne-msctf-tflayoutcode">TfLayoutCode (msctf.h) </a></li>
-<li><a href="/windows/win32/api/msctf/ne-msctf-tfshiftdir">TfShiftDir (msctf.h) </a></li>
-<li><a href="/windows/win32/api/msrdc/ne-msrdc-rdcneedtype">RdcNeedType (msrdc.h) </a></li>
-<li><a href="/windows/win32/api/mstask/ne-mstask-taskpage">TASKPAGE (mstask.h) </a></li>
-<li><a href="/windows/win32/api/msxml6/ne-msxml6-xhr_auth">XHR_AUTH (msxml6.h) </a></li>
-<li><a href="/windows/win32/api/netsh/ne-netsh-ns_cmd_flags">NS_CMD_FLAGS (netsh.h) </a></li>
-<li><a href="/windows/win32/api/oaidl/ne-oaidl-funcflags">FUNCFLAGS (oaidl.h) </a></li>
-<li><a href="/windows/win32/api/oaidl/ne-oaidl-invokekind">INVOKEKIND (oaidl.h) </a></li>
-<li><a href="/windows/win32/api/oaidl/ne-oaidl-libflags">LIBFLAGS (oaidl.h) </a></li>
-<li><a href="/windows/win32/api/oaidl/ne-oaidl-typeflags">TYPEFLAGS (oaidl.h) </a></li>
-<li><a href="/windows/win32/api/oaidl/ne-oaidl-varflags">VARFLAGS (oaidl.h) </a></li>
-<li><a href="/windows/win32/api/objbase/ne-objbase-coinit">COINIT (objbase.h) </a></li>
-<li><a href="/windows/win32/api/objbase/ne-objbase-comsd">COMSD (objbase.h) </a></li>
-<li><a href="/windows/win32/api/objidl/ne-objidl-advf">ADVF (objidl.h) </a></li>
-<li><a href="/windows/win32/api/objidl/ne-objidl-apttype">APTTYPE (objidl.h) </a></li>
-<li><a href="/windows/win32/api/objidl/ne-objidl-bind_flags">BIND_FLAGS (objidl.h) </a></li>
-<li><a href="/windows/win32/api/objidl/ne-objidl-calltype">CALLTYPE (objidl.h) </a></li>
-<li><a href="/windows/win32/api/objidl/ne-objidl-datadir">DATADIR (objidl.h) </a></li>
-<li><a href="/windows/win32/api/objidl/ne-objidl-extconn">EXTCONN (objidl.h) </a></li>
-<li><a href="/windows/win32/api/objidl/ne-objidl-locktype">LOCKTYPE (objidl.h) </a></li>
-<li><a href="/windows/win32/api/objidl/ne-objidl-mksys">MKSYS (objidl.h) </a></li>
-<li><a href="/windows/win32/api/objidl/ne-objidl-pendingmsg">PENDINGMSG (objidl.h) </a></li>
-<li><a href="/windows/win32/api/objidl/ne-objidl-servercall">SERVERCALL (objidl.h) </a></li>
-<li><a href="/windows/win32/api/objidl/ne-objidl-stgty">STGTY (objidl.h) </a></li>
-<li><a href="/windows/win32/api/objidl/ne-objidl-thdtype">THDTYPE (objidl.h) </a></li>
-<li><a href="/windows/win32/api/objidl/ne-objidl-tymed">TYMED (objidl.h) </a></li>
-<li><a href="/windows/win32/api/ocidl/ne-ocidl-dvaspect2">DVASPECT2 (ocidl.h) </a></li>
-<li><a href="/windows/win32/api/ocidl/ne-ocidl-hitresult">HITRESULT (ocidl.h) </a></li>
-<li><a href="/windows/win32/api/ocidl/ne-ocidl-oledcflags">OLEDCFLAGS (ocidl.h) </a></li>
-<li><a href="/windows/win32/api/ocidl/ne-ocidl-readystate">READYSTATE (ocidl.h) </a></li>
-<li><a href="/windows/win32/api/ocidl/ne-ocidl-uasflags">UASFLAGS (ocidl.h) </a></li>
-<li><a href="/windows/win32/api/ocidl/ne-ocidl-viewstatus">VIEWSTATUS (ocidl.h) </a></li>
-<li><a href="/windows/win32/api/oleidl/ne-oleidl-bindspeed">BINDSPEED (oleidl.h) </a></li>
-<li><a href="/windows/win32/api/oleidl/ne-oleidl-oleclose">OLECLOSE (oleidl.h) </a></li>
-<li><a href="/windows/win32/api/oleidl/ne-oleidl-olecontf">OLECONTF (oleidl.h) </a></li>
-<li><a href="/windows/win32/api/oleidl/ne-oleidl-olemisc">OLEMISC (oleidl.h) </a></li>
-<li><a href="/windows/win32/api/oleidl/ne-oleidl-olerender">OLERENDER (oleidl.h) </a></li>
-<li><a href="/windows/win32/api/oleidl/ne-oleidl-oleupdate">OLEUPDATE (oleidl.h) </a></li>
-<li><a href="/windows/win32/api/oleidl/ne-oleidl-olewhichmk">OLEWHICHMK (oleidl.h) </a></li>
-<li><a href="/windows/win32/api/p2p/ne-p2p-peer_change_type">PEER_CHANGE_TYPE (p2p.h) </a></li>
-<li><a href="/windows/win32/api/p2p/ne-p2p-peer_graph_scope">PEER_GRAPH_SCOPE (p2p.h) </a></li>
-<li><a href="/windows/win32/api/pla/ne-pla-autopathformat">AutoPathFormat (pla.h) </a></li>
-<li><a href="/windows/win32/api/pla/ne-pla-clocktype">ClockType (pla.h) </a></li>
-<li><a href="/windows/win32/api/pla/ne-pla-commitmode">CommitMode (pla.h) </a></li>
-<li><a href="/windows/win32/api/pla/ne-pla-datamanagersteps">DataManagerSteps (pla.h) </a></li>
-<li><a href="/windows/win32/api/pla/ne-pla-fileformat">FileFormat (pla.h) </a></li>
-<li><a href="/windows/win32/api/pla/ne-pla-resourcepolicy">ResourcePolicy (pla.h) </a></li>
-<li><a href="/windows/win32/api/pla/ne-pla-streammode">StreamMode (pla.h) </a></li>
-<li><a href="/windows/win32/api/pla/ne-pla-valuemaptype">ValueMapType (pla.h) </a></li>
-<li><a href="/windows/win32/api/pla/ne-pla-weekdays">WeekDays (pla.h) </a></li>
-<li><a href="/windows/win32/api/qmgr/ne-qmgr-groupprop">GROUPPROP (qmgr.h) </a></li>
-<li><a href="/windows/win32/api/qos2/ne-qos2-qos_query_flow">QOS_QUERY_FLOW (qos2.h) </a></li>
-<li><a href="/windows/win32/api/qos2/ne-qos2-qos_set_flow">QOS_SET_FLOW (qos2.h) </a></li>
-<li><a href="/windows/win32/api/qos2/ne-qos2-qos_shaping">QOS_SHAPING (qos2.h) </a></li>
-<li><a href="/windows/win32/api/rend/ne-rend-directory_type">DIRECTORY_TYPE (rend.h) </a></li>
-<li><a href="/windows/win32/api/roapi/ne-roapi-ro_init_type">RO_INIT_TYPE (roapi.h) </a></li>
-<li><a href="/windows/win32/api/segment/ne-segment-dvdspext">DVDSPExt (segment.h) </a></li>
-<li><a href="/windows/win32/api/strmif/ne-strmif-vmrmode">VMRMode (strmif.h) </a></li>
-<li><a href="/windows/win32/api/tdh/ne-tdh-map_flags">MAP_FLAGS (tdh.h) </a></li>
-<li><a href="/windows/win32/api/tdh/ne-tdh-property_flags">PROPERTY_FLAGS (tdh.h) </a></li>
-<li><a href="/windows/win32/api/tdh/ne-tdh-template_flags">TEMPLATE_FLAGS (tdh.h) </a></li>
-<li><a href="/windows/win32/api/tom/ne-tom-mancode">MANCODE (tom.h) </a></li>
-<li><a href="/windows/win32/api/tom/ne-tom-objecttype">OBJECTTYPE (tom.h) </a></li>
-<li><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomConstants (tom.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_disk_flag">VDS_DISK_FLAG (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_disk_status">VDS_DISK_STATUS (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_drive_flag">VDS_DRIVE_FLAG (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_drive_status">VDS_DRIVE_STATUS (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_hbaport_type">VDS_HBAPORT_TYPE (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_health">VDS_HEALTH (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_lun_flag">VDS_LUN_FLAG (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_lun_status">VDS_LUN_STATUS (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_lun_type">VDS_LUN_TYPE (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_object_type">VDS_OBJECT_TYPE (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_pack_flag">VDS_PACK_FLAG (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_pack_status">VDS_PACK_STATUS (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_path_status">VDS_PATH_STATUS (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_port_status">VDS_PORT_STATUS (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_raid_type">VDS_RAID_TYPE (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_san_policy">VDS_SAN_POLICY (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_service_flag">VDS_SERVICE_FLAG (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_volume_flag">VDS_VOLUME_FLAG (vds.h) </a></li>
-<li><a href="/windows/win32/api/vds/ne-vds-vds_volume_type">VDS_VOLUME_TYPE (vds.h) </a></li>
-<li><a href="/windows/win32/api/vmr9/ne-vmr9-vmr9mixerprefs">VMR9MixerPrefs (vmr9.h) </a></li>
-<li><a href="/windows/win32/api/vmr9/ne-vmr9-vmr9mode">VMR9Mode (vmr9.h) </a></li>
-<li><a href="/windows/win32/api/winnls/ne-winnls-norm_form">NORM_FORM (winnls.h) </a></li>
-<li><a href="/windows/win32/api/winnls/ne-winnls-sysgeotype">SYSGEOTYPE (winnls.h) </a></li>
-<li><a href="/windows/win32/api/winuser/ne-winuser-ar_state">AR_STATE (winuser.h) </a></li>
-<li><a href="/windows/win32/api/wtypes/ne-wtypes-dvaspect">DVASPECT (wtypes.h) </a></li>
-<li><a href="/windows/win32/api/wtypes/ne-wtypes-statflag">STATFLAG (wtypes.h) </a></li>
-<li><a href="/windows/win32/api/wtypes/ne-wtypes-stgc">STGC (wtypes.h) </a></li>
-<li><a href="/windows/win32/api/wtypes/ne-wtypes-stgmove">STGMOVE (wtypes.h) </a></li>
-<li><a href="/windows/win32/api/wtypes/ne-wtypes-varenum">VARENUM (wtypes.h) </a></li>
-<li><a href="/windows/win32/api/wuapi/ne-wuapi-searchscope">SearchScope (wuapi.h) </a></li>
-<li><a href="/windows/win32/api/wuapi/ne-wuapi-updatetype">UpdateType (wuapi.h) </a></li>
-</ul>
+## UWP reference
 
-## UWP API reference
-
-<ul>
-<li><a href="/uwp/api/windows.applicationmodel.resources.resourceloader">Windows.ApplicationModel.Resources.ResourceLoader</a></li>
-<li><a href="/uwp/api/windows.applicationmodel.voicecommands.voicecommand">Windows.ApplicationModel.VoiceCommands.VoiceCommand</a></li>
-<li><a href="/uwp/api/windows.applicationmodel.voicecommands.voicecommandresponse">Windows.ApplicationModel.VoiceCommands.VoiceCommandResponse</a></li>
-<li><a href="/uwp/api/windows.graphics.igeometrysource2d">Windows.Graphics.IGeometrySource2D</a></li>
-<li><a href="/uwp/api/windows.graphics.windows.graphics">N:Windows.Graphics</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueue">Windows.System.DispatcherQueue</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueue.createtimer">Windows.System.DispatcherQueue.CreateTimer</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueue.hasthreadaccess">Windows.System.DispatcherQueue.HasThreadAccess</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueue.shutdowncompleted">Windows.System.DispatcherQueue.ShutdownCompleted</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueue.shutdownstarting">Windows.System.DispatcherQueue.ShutdownStarting</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueue.tryenqueue">Windows.System.DispatcherQueue.TryEnqueue(Windows.System.DispatcherQueuePriority,Windows.System.DispatcherQueueHandler)</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueue.tryenqueue">Windows.System.DispatcherQueue.TryEnqueue(Windows.System.DispatcherQueueHandler)</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueuecontroller">Windows.System.DispatcherQueueController</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueuecontroller.dispatcherqueue">Windows.System.DispatcherQueueController.DispatcherQueue</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueuehandler">Windows.System.DispatcherQueueHandler</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueuepriority">Windows.System.DispatcherQueuePriority</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueueshutdownstartingeventargs">Windows.System.DispatcherQueueShutdownStartingEventArgs</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueuetimer">Windows.System.DispatcherQueueTimer</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueuetimer.interval">Windows.System.DispatcherQueueTimer.Interval</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueuetimer.isrepeating">Windows.System.DispatcherQueueTimer.IsRepeating</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueuetimer.isrunning">Windows.System.DispatcherQueueTimer.IsRunning</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueuetimer.start">Windows.System.DispatcherQueueTimer.Start</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueuetimer.stop">Windows.System.DispatcherQueueTimer.Stop</a></li>
-<li><a href="/uwp/api/windows.system.dispatcherqueuetimer.tick">Windows.System.DispatcherQueueTimer.Tick</a></li>
-<li><a href="/uwp/api/windows.system.windows.system">N:Windows.System</a></li>
-<li><a href="/uwp/api/windows.ui.xaml.application.enteredbackground">Windows.UI.Xaml.Application.EnteredBackground</a></li>
-<li><a href="/uwp/api/windows.ui.xaml.application.leavingbackground">Windows.UI.Xaml.Application.LeavingBackground</a></li>
-<li><a href="/uwp/api/windows.ui.xaml.application.onactivated">Windows.UI.Xaml.Application.OnActivated(Windows.ApplicationModel.Activation.IActivatedEventArgs)</a></li>
-<li><a href="/uwp/api/windows.ui.xaml.application.onbackgroundactivated">Windows.UI.Xaml.Application.OnBackgroundActivated(Windows.ApplicationModel.Activation.BackgroundActivatedEventArgs)</a></li>
-<li><a href="/uwp/api/windows.ui.xaml.application.onfileactivated">Windows.UI.Xaml.Application.OnFileActivated(Windows.ApplicationModel.Activation.FileActivatedEventArgs)</a></li>
-<li><a href="/uwp/api/windows.ui.xaml.application.onsearchactivated">Windows.UI.Xaml.Application.OnSearchActivated(Windows.ApplicationModel.Activation.SearchActivatedEventArgs)</a></li>
-<li><a href="/uwp/api/windows.ui.xaml.application.onwindowcreated">Windows.UI.Xaml.Application.OnWindowCreated(Windows.UI.Xaml.WindowCreatedEventArgs)</a></li>
-<li><a href="/uwp/api/windows.ui.xaml.application.requirespointermode">Windows.UI.Xaml.Application.RequiresPointerMode</a></li>
-<li><a href="/uwp/api/windows.ui.xaml.application.resuming">Windows.UI.Xaml.Application.Resuming</a></li>
-<li><a href="/uwp/api/windows.ui.xaml.application.suspending">Windows.UI.Xaml.Application.Suspending</a></li>
-<li><a href="/uwp/api/windows.ui.xaml.windowcreatedeventargs">Windows.UI.Xaml.WindowCreatedEventArgs</a></li>
-<li><a href="/uwp/api/windows.ui.xaml.windowcreatedeventargs.window">Windows.UI.Xaml.WindowCreatedEventArgs.Window</a></li>
-<li><a href="/uwp/api/windows.ui.colorhelper.todisplayname">Windows.UI.ColorHelper.ToDisplayName(Windows.UI.Color)</a></li>
-</ul>
-
-## C++/WinRT
-<ul>
-<li><a href="/windows/apps/cpp-ref-for-winrt/guid">winrt::guid struct (C++/WinRT)</a></li>
-</ul>
+* [Windows.Devices.Input.KeyboardCapabilities](/uwp/api/windows.devices.input.keyboardcapabilities)
+* [Windows.Devices.Lights.Lamp.AvailabilityChanged](/uwp/api/windows.devices.lights.lamp.availabilitychanged)
+* [Windows.Devices.Lights.LampArray](/uwp/api/windows.devices.lights.lamparray)
+* [Windows.Devices.Lights.LampArray.BoundingBox](/uwp/api/windows.devices.lights.lamparray.boundingbox)
+* [Windows.Devices.Lights.LampArray.DeviceId](/uwp/api/windows.devices.lights.lamparray.deviceid)
+* [Windows.Devices.Lights.LampArray.IsAvailable](/uwp/api/windows.devices.lights.lamparray.isavailable)
+* [Windows.Devices.Lights.LampArray.IsConnected](/uwp/api/windows.devices.lights.lamparray.isconnected)
+* [Windows.Devices.Lights.LampArray.IsEnabled](/uwp/api/windows.devices.lights.lamparray.isenabled)
+* [Windows.Devices.Lights.LampArray.LampArrayKind](/uwp/api/windows.devices.lights.lamparray.lamparraykind)
+* [Windows.Devices.Lights.LampArray.LampCount](/uwp/api/windows.devices.lights.lamparray.lampcount)
+* [Windows.Devices.Lights.LampArrayKind](/uwp/api/windows.devices.lights.lamparraykind)
+* [N:Windows.Devices.Lights](/uwp/api/windows.devices.lights.windows.devices.lights)
+* [Windows.Devices.Sensors.ActivitySensor](/uwp/api/windows.devices.sensors.activitysensor)
+* [Windows.Devices.Sensors.AdaptiveDimmingOptions](/uwp/api/windows.devices.sensors.adaptivedimmingoptions)
+* [Windows.Devices.Sensors.LockOnLeaveOptions](/uwp/api/windows.devices.sensors.lockonleaveoptions)
+* [Windows.Devices.Sensors.WakeOnApproachOptions](/uwp/api/windows.devices.sensors.wakeonapproachoptions)
+* [Windows.UI.Composition.CompositionTexture](/uwp/api/windows.ui.composition.compositiontexture)
+* [Windows.UI.Shell.WindowTab](/uwp/api/windows.ui.shell.windowtab)
+* [Windows.UI.Shell.WindowTab.Group](/uwp/api/windows.ui.shell.windowtab.group)
+* [Windows.UI.Shell.WindowTab.Icon](/uwp/api/windows.ui.shell.windowtab.icon)
+* [Windows.UI.Shell.WindowTab.Tag](/uwp/api/windows.ui.shell.windowtab.tag)
+* [Windows.UI.Shell.WindowTab.Title](/uwp/api/windows.ui.shell.windowtab.title)
+* [Windows.UI.Shell.WindowTab.#ctor](/uwp/api/windows.ui.shell.windowtab.windowtab)
+* [Windows.UI.Shell.WindowTabCollection](/uwp/api/windows.ui.shell.windowtabcollection)
+* [Windows.UI.Shell.WindowTabCollection.Size](/uwp/api/windows.ui.shell.windowtabcollection.size)
+* [Windows.UI.Shell.WindowTabGroup](/uwp/api/windows.ui.shell.windowtabgroup)
+* [Windows.UI.Shell.WindowTabGroup.Icon](/uwp/api/windows.ui.shell.windowtabgroup.icon)
+* [Windows.UI.Shell.WindowTabGroup.Title](/uwp/api/windows.ui.shell.windowtabgroup.title)
+* [Windows.UI.Shell.WindowTabIcon](/uwp/api/windows.ui.shell.windowtabicon)
+* [Windows.UI.Shell.WindowTabManager](/uwp/api/windows.ui.shell.windowtabmanager)
+* [Windows.UI.Shell.WindowTabManager.Tabs](/uwp/api/windows.ui.shell.windowtabmanager.tabs)

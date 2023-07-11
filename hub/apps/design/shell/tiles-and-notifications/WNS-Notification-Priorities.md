@@ -39,7 +39,7 @@ Setting the priority on the notification request is done through an additional h
 | Priority Name | X-WNS-PRIORITY Value | Default for: |
 |---------------|----------------------|------------------|
 | High | 1 | Toasts |
-| Meduim | 2 | Tiles and Badges |
+| Medium | 2 | Tiles and Badges |
 | Low | 3 | Raw |
 
 To be backward compatible, setting a priority is not required. In case an app doesn’t set the priority of their notifications, the system will provide a default priority. The defaults are shown in the chart above and match the behavior of existing versions of Windows. 
@@ -53,7 +53,7 @@ More specific recommended behaviors for each priority are listed below. This is 
 | Device State    | PRIORITY: High    |    PRIORITY: Medium        | PRIORITY: Low    |    PRIORITY: Very Low    |
 |-------------------------------------------------------|----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|--------------------------|
 |    Screen On OR plugged in    |    Deliver    |    Deliver    |    Deliver    |    Deliver    |
-|    Screen Off AND on battery    |    Deliver    |    If user exempted: deliver        Else: batch     |    If user exempted: deliver        Else: cache *    |    Cache    |
+|    Screen Off AND on battery    |    Deliver    |    If user exempted: deliver        Else: cache     |    If user exempted: deliver        Else: cache *    |    Cache    |
 |    Battery Saver enabled    |    If user exempted: deliver        Else: cache    |    If user exempted: deliver        Else: cache    |    If user exempted: deliver        Else: cache    |    Cache     |
 |    On battery + battery saver enabled + screen off    |    If user exempted: deliver        Else: cache    |    If user exempted: deliver        Else: cache    |    If user exempted: deliver        Else: cache    |    Cache    |
 

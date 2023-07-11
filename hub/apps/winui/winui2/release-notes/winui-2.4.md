@@ -10,7 +10,7 @@ ms.topic: article
 
 WinUI 2.4 is the May 2020 release of the Windows UI Library (WinUI).
 
-WinUI is an open source project hosted on GitHub at [Windows UI Library repo](https://aka.ms/winui). Please register all bug reports, feature requests, and community code contributions in this repo.
+The Windows UI Library (WinUI) is hosted on [GitHub](https://github.com/microsoft/microsoft-ui-xaml) where we encourage you to file bug reports, feature requests and community code contributions.
 
 WinUI Releases: [GitHub release page](https://github.com/microsoft/microsoft-ui-xaml/releases)
 
@@ -89,8 +89,14 @@ The [NavigationView](/uwp/api/microsoft.ui.xaml.controls.navigationview?view=win
 
 ## Samples
 
-Examples of each of the WinUI 2.4 features described are available in the **XAML Controls Gallery**.
+> [!TIP]
+> For more info, design guidance, and code examples, see [Design and code Windows apps](../../../design/index.md).
+>
+> The **WinUI 3 Gallery** and **WinUI 2 Gallery** apps include interactive examples of most WinUI 3 and WinUI 2 controls, features, and functionality.
+>
+> If installed already, open them by clicking the following links: [**WinUI 3 Gallery**](winui3gallery:/item/AnimatedIcon) or [**WinUI 2 Gallery**](winui2gallery:/item/AnimatedIcon).
+>
+> If they are not installed, you can download the [**WinUI 3 Gallery**](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) and the [**WinUI 2 Gallery**](https://www.microsoft.com/store/productId/9MSVH128X2ZT) from the Microsoft Store.
+>
+> You can also get the source code for both from [GitHub](https://github.com/Microsoft/WinUI-Gallery) (use the *main* branch for WinUI 3 and the *winui2* branch for WinUI 2).
 
-If you don't have the XAML Controls Gallery app installed, get it from the [Microsoft Store](https://www.microsoft.com/p/xaml-controls-gallery/9msvh128x2zt).
-
-You can also view the XAML Controls Gallery source code on [GitHub](https://github.com/Microsoft/Xaml-Controls-Gallery).

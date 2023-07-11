@@ -39,6 +39,8 @@ landingContent:
             url: ../windows-app-sdk/index.md
           - text: Create your first WinUI 3 project
             url: ../winui/winui3/create-your-first-winui3-app.md
+          - text: Overview of Progressive Web Apps (PWAs)
+            url: /microsoft-edge/progressive-web-apps-chromium/
           - text: Make your apps great on Windows 11
             url: ../get-started/make-apps-great-for-windows.md
       - linkListType: reference
@@ -86,10 +88,10 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Package and deploy Windows apps
+          - text: Deployment overview
             url: ../package-and-deploy/index.md
           - text: Deploy apps that use the Windows App SDK
-            url: ../package-and-deploy/index.md#apps-that-use-the-windows-app-sdk
+            url: ../package-and-deploy/index.md#use-the-windows-app-sdk
           - text: MSIX documentation
             url: /windows/msix
 

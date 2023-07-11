@@ -31,17 +31,22 @@ You can create a Windows desktop app using React Native for Windows by following
 2. You can use this command with the Node Package Executor (NPX) to create a React Native project without the need to install locally or globally install additional tools. The  command will generate a React Native app in the directory specified by `<projectName>`.
 
     ```powershell
-    npx react-native init <projectName> --template react-native@^0.63.2
+    npx react-native init <projectName>
+    ```
+    If you want to start a new project with a specific React Native version, you can use the `--version` argument. For information about versions of React Native, see [Versions - React Native](https://reactnative.dev/versions).
+   
+    ```powershell
+    npx react-native@X.XX.X init  <projectName> --version X.XX.X
     ```
 
-3. Switch to the project directory and run the following command to install the React Native for Windows packages:
+4. Switch to the project directory and run the following command to install the React Native for Windows packages:
 
     ```powershell
     cd projectName
     npx react-native-windows-init --overwrite
     ```
 
-4. To run the app, first launch your web browser (ie. Microsoft Edge), then execute the following command:
+5. To run the app, first launch your web browser (ie. Microsoft Edge), then execute the following command:
 
     ```powershell
     npx react-native run-windows
@@ -93,4 +98,4 @@ You can create a Windows desktop app using React Native for Windows by following
 - [React docs](https://reactjs.org/)
 - [Should I install on Windows or Windows Subsystem for Linux (WSL)?](./windows-or-wsl.md)
 - [Install NodeJS on Windows](./nodejs-on-windows.md)
-- Try the Microsoft Learn online course: [React](/learn/paths/react/)
+- Try the [React learning path](/training/paths/react/)

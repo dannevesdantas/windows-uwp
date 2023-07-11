@@ -6,12 +6,12 @@ ms.author: mattwoj
 manager: jken
 ms.topic: article
 ms.custom: seo-windows-dev
-ms.date: 11/29/2021
+ms.date: 04/14/2022
 ---
 
 # Web development on Windows
 
-Microsoft offers a variety of resources for web developers, including new tools and features supporting web development using Windows. This guide covers many of the tools available and provides a place to [leave feedback](../dev-environment/index.md#additional-resources) toward making Windows your ideal environment to develop on for the web. For a list of APIs, see [APIs for web development](/windows/web/apis).
+Microsoft offers a variety of resources for web developers, including new tools and features supporting web development using Windows. This guide covers many of the tools available to make Windows your ideal environment to develop on for the web. For a list of APIs, see [APIs for web development](./apis.md).
 
 > [!div class="nextstepaction"]
 > [Set up your development environment on Windows](../dev-environment/index.md)
@@ -26,7 +26,7 @@ Microsoft offers a variety of resources for web developers, including new tools 
         [Download WebView 2](https://developer.microsoft.com/microsoft-edge/webview2/#download-section)
     :::column-end:::
     :::column:::
-        [![Microsoft Edge DevTools icon](../images/microsoftedge-devtools.png)](/microsoft-edge/devtools-guide-chromium/index.md)<br>
+        [![Microsoft Edge DevTools icon](../images/microsoftedge-devtools.png)](/microsoft-edge/devtools-guide-chromium/landing/)<br>
         **[Microsoft Edge DevTools](/microsoft-edge/devtools-guide-chromium/)**<br>
         Microsoft Edge Developer Tools are a set of inspection and debugging tools built directly into the Microsoft Edge browser.
         To open DevTools, with Microsoft Edge in focus:
@@ -167,7 +167,7 @@ Microsoft offers a variety of resources for web developers, including new tools 
     :::column:::
        [![ASP.NET icon](../images/aspnet.png)](https://dotnet.microsoft.com/apps/aspnet)<br>
         **[ASP.NET](/aspnet/)**<br>
-        A cross-platform framework for building web apps and services, Internet of Things (IoT) apps, or mobile backends with .NET and C#. Use your favorite dev tools on Windows, macOS, and Linux. Deploy to the cloud or on-premises. Run on .NET Core.<br>
+        A cross-platform framework for building web apps and services, Internet of Things (IoT) apps, or mobile backends with .NET and C#. Build rich interactive web UI with [Blazor](/aspnet/core/blazor/). Use your favorite dev tools on Windows, macOS, and Linux. Deploy to the cloud or on-premises. Run on .NET Core.<br>
         [Install ASP.NET](https://dotnet.microsoft.com/download)
     :::column-end:::
     :::column:::
@@ -253,11 +253,11 @@ Microsoft offers a variety of resources for web developers, including new tools 
         [Install React Native for macOS](https://microsoft.github.io/react-native-windows/docs/rnm-getting-started)
     :::column-end:::
     :::column:::
-       [![Learn icon](../images/learn-icon.png)](/learn/browse/?terms=web)<br>
-        **[Microsoft Learn courses related to web development](/learn/browse/?terms=web)**<br>
+       [![Learn icon](../images/learn-icon.png)](/training/browse/?terms=web)<br>
+        **[Microsoft Learn courses related to web development](/training/browse/?terms=web)**<br>
         Microsoft Learn offers free online courses to learn a variety of new skills and discover Microsoft products and services with step-by-step guidance.
         <br>
-        [Start Learning](/learn/browse/?terms=web)
+        [Start Learning](/training/browse/?terms=web)
     :::column-end:::
 :::row-end:::
 

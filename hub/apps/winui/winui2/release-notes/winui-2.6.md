@@ -13,7 +13,7 @@ WinUI 2.6 is the June 2021 release of the Windows UI Library (WinUI) for UWP app
 > [!NOTE]
 > For more information on building Windows desktop and UWP apps with the latest version of **WinUI 3**, see [Windows UI Library 3](../../index.md).
 
-WinUI is hosted on GitHub in our [Windows UI Library repo](https://github.com/microsoft/microsoft-ui-xaml). As an open source project, you can file your WinUI 2 bug reports, feature requests, and community code contributions there.
+The Windows UI Library (WinUI) is hosted on [GitHub](https://github.com/microsoft/microsoft-ui-xaml) where we encourage you to file bug reports, feature requests and community code contributions.
 
 All stable releases (and prereleases) are available for download from our [GitHub release page](https://github.com/microsoft/microsoft-ui-xaml/tags) or from our [NuGet page](https://www.nuget.org/packages/Microsoft.UI.Xaml).
 
@@ -29,7 +29,7 @@ Mica is a new material that incorporates theme and desktop wallpaper to paint th
 
 [Usage guidelines](../../../design/style/mica.md)
 
-[API reference](/winui/api/microsoft.ui.xaml.controls.backdropmaterial)
+[API reference](/windows/winui/api/microsoft.ui.xaml.controls.backdropmaterial)
 
 ## Expander
 
@@ -122,17 +122,20 @@ A new versioning system has also been introduced that lets you revert to the pre
 
 ## SplitButton styles for CommandBar
 
-A new `SplitButtonCommandBarStyle` provides the ability to apply the look and feel of an [AppBarButton](/windows/winui/api/microsoft.ui.xaml.controls.appbarbutton) to a [SplitButton](/windows/winui/api/microsoft.ui.xaml.controls.splitbutton) control. This style is automatically applied to a SplitButton when it's placed inside of an [AppBarElementContainer](/windows/winui/api/microsoft.ui.xaml.controls.appbarelementcontainer) class (allows an element that doesn't implement [ICommandBarElement](/uwp/api/windows.ui.xaml.controls.icommandbarelement) to be displayed in a command bar), and then placed inside of a [CommandBar](/uwp/api/windows.ui.xaml.controls.commandbar) control.
+A new `SplitButtonCommandBarStyle` provides the ability to apply the look and feel of an [AppBarButton](/uwp/api/windows.ui.xaml.controls.appbarbutton) to a [SplitButton](/windows/winui/api/microsoft.ui.xaml.controls.splitbutton) control.
 
 ## Samples
 
-The **XAML Controls Gallery** sample app includes examples of each of these WinUI features and controls.
-
-If you have the **XAML Controls Gallery** app installed and updated to the latest version, [see the controls in action](xamlcontrolsgallery:).
-
-If you don't have the XAML Controls Gallery app installed, get it from the [Microsoft Store](https://aka.ms/xamlgalleryapp).
-
-You can also view, clone, and build the XAML Controls Gallery source code from [GitHub](https://github.com/Microsoft/Xaml-Controls-Gallery).
+> [!TIP]
+> For more info, design guidance, and code examples, see [Design and code Windows apps](../../../design/index.md).
+>
+> The **WinUI 3 Gallery** and **WinUI 2 Gallery** apps include interactive examples of most WinUI 3 and WinUI 2 controls, features, and functionality.
+>
+> If installed already, open them by clicking the following links: [**WinUI 3 Gallery**](winui3gallery:/item/AnimatedIcon) or [**WinUI 2 Gallery**](winui2gallery:/item/AnimatedIcon).
+>
+> If they are not installed, you can download the [**WinUI 3 Gallery**](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) and the [**WinUI 2 Gallery**](https://www.microsoft.com/store/productId/9MSVH128X2ZT) from the Microsoft Store.
+>
+> You can also get the source code for both from [GitHub](https://github.com/Microsoft/WinUI-Gallery) (use the *main* branch for WinUI 3 and the *winui2* branch for WinUI 2).
 
 ## Other updates
 
